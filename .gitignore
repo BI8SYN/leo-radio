@@ -12,3 +12,6 @@ sdkconfig.old
 # Never commit device credentials or flash dumps
 nvs_backup*
 *.nvs
+
+# Exported Ubuntu build artifacts; intermediates stay in Linux.
+/.ubuntu-build/
